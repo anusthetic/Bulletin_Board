@@ -58,7 +58,7 @@ src/
 ## Installation
 
 ```bash
-git clone <https://github.com/anusthetic/Bulletin_Board>
+git clone https://github.com/anusthetic/Bulletin_Board
 
 cd backend
 
@@ -213,7 +213,7 @@ src/
 ## Installation
 
 ```bash
-git clone <[repository-url](https://github.com/anusthetic/Bulletin_Board)>
+git clone https://github.com/anusthetic/Bulletin_Board
 
 cd frontend/vite-project
 
