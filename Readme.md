@@ -90,7 +90,7 @@ caCertificate=<path-or-certificate-content>
 Run the server.
 
 ```bash
-nodemon sec/index.js
+nodemon src/index.js
 ```
 
 ## API Overview
