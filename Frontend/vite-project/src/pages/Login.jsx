@@ -40,11 +40,11 @@ function Login() {
   const onSubmit = async (data) => {
     try {
         await dispatch(loginUser(data)).unwrap();
-        navigate("/");
+      navigate("/");
     } catch (err) {
-        console.log(err);
+      console.log(err);
     }
-};
+  };
 
   return (
     <div className="min-h-[calc(100vh-80px)] flex items-center justify-center px-4">

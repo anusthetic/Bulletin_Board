@@ -21,11 +21,11 @@ export default function CreateNoticePage() {
 
   async function onSubmit(data) {
     setServerError("");
-
+   
     try {
       const res = await createNotice(data);
-
-      navigate(`/notices/${res.id}`, {
+      console.log(res);
+      navigate(`/`, {
         state: { item: res},
       });
     } catch (err) {

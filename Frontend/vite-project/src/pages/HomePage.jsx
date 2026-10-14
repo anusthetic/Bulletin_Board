@@ -2,8 +2,8 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { fetchNotices, fetchEvents } from '../api';
 import { useDispatch, useSelector } from 'react-redux';
-import axiosClient from '../utils/axiosClient';
-import { logoutUser } from '../authSlice';
+// import axiosClient from '../utils/axiosClient';
+// import { logoutUser } from '../authSlice';
 import {formatDateTime} from '../utils/formatDateTime';
 
 const PAGE_SIZE = 8;
